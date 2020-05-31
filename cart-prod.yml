@@ -1,3 +1,11 @@
 server:
   port: 9000
+
+spring:
+  rabbitmq:
+    host: 47.94.155.74
+    port: 5673
+    username: root
+    password: 123456
+    publisher-confirms: true  #开启发送方消息确认模式
 env: prod
