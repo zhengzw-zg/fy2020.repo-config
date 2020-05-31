@@ -2,17 +2,9 @@ server:
   port:8082
 
 spring:
-  application:
-    name: cart
   rabbitmq:
     host: 47.94.155.74
     port: 5673
     username: root
     password: 123456
     publisher-confirms: true  #开启发送方消息确认模式
-  cloud:
-    config:
-      discovery:
-        enabled: true    #可以被发现
-        service-id: CONFIG-SERVER   #所属配置服务config-server的名字
-      profile: dev     #所属环境  dev开发环境
