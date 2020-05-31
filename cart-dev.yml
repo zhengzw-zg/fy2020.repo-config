@@ -8,4 +8,4 @@ spring:
     username: root
     password: 123456
     publisher-confirms: true  #开启发送方消息确认模式
-env: dev
+env: dev11
